@@ -1,0 +1,40 @@
+img{
+    text-align: center;
+    width:200px;
+    height:200px;
+    margin:30px;
+    border-radius: 15px;
+}
+
+.resume {
+    max-width: 600px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color:#F0F8FF;
+    color:black;
+}
+
+.details {
+    margin:30px;
+}
+
+.profile-section {
+    background-color:#E6E6FA;
+    padding:30px;
+}
+.material-icons{
+    width:5px;
+    height: 5px;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+    .resume{
+        font-size:15px;
+    }
+    img{
+        width:100px;
+        height:100px;
+    }
+
+} 
